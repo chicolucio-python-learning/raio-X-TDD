@@ -13,11 +13,17 @@ Programe um robô que jogue FizzBuzz
 def robot(value):
     if value % 3 == 0:
         return 'fizz'
+    elif value % 5 == 0:
+        return 'buzz'
     return str(value)
 
 
 if __name__ == "__main__":
     assert robot(1) == '1'
     assert robot(2) == '2'
+
     assert robot(3) == 'fizz'
     assert robot(6) == 'fizz'
+
+    assert robot(5) == 'buzz'
+    assert robot(10) == 'buzz'
