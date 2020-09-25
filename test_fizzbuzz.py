@@ -11,8 +11,9 @@ Programe um robô que jogue FizzBuzz
 
 
 def robot(value):
-    return str(1)
+    return str(value)
 
 
 if __name__ == "__main__":
     assert robot(1) == '1'
+    assert robot(2) == '2'
