@@ -11,7 +11,7 @@ Programe um robô que jogue FizzBuzz
 
 
 def robot(value):
-    if (value % 3 == 0) and (value % 5 == 0):
+    if value % 15 == 0:
         return 'fizzbuzz'
     elif value % 3 == 0:
         return 'fizz'
