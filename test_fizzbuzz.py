@@ -10,12 +10,16 @@ Programe um robô que jogue FizzBuzz
 """
 
 
+def multiple_of(base, value):
+    return value % base == 0
+
+
 def multiple_of_3(value):
-    return value % 3 == 0
+    return multiple_of(3, value)
 
 
 def multiple_of_5(value):
-    return value % 5 == 0
+    return multiple_of(5, value)
 
 
 def multiple_of_3_and_5(value):
