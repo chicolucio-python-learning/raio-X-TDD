@@ -27,3 +27,7 @@ Não faça *Big Design Upfront*. Faça rascunhos antes de imaginar todo o projet
 INPUT --> PROCESSAMENTO --> OUTPUT
 
 Pro cliente só interessa o *output*. Mas passamos boa parte do tempo no input e no processamento, de forma que esquecemos de focar no que interessa, que é o output.
+
+## Essência de um teste
+
+Ver arquivo [essencia_test.py](essencia_test.py)
