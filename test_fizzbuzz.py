@@ -8,3 +8,11 @@ Regras do FizzBuzz
 
 Programe um robô que jogue FizzBuzz
 """
+
+
+def robot(value):
+    return str(1)
+
+
+if __name__ == "__main__":
+    assert robot(1) == '1'

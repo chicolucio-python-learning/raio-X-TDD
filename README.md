@@ -35,3 +35,10 @@ Ver arquivo [essencia_test.py](essencia_test.py)
 ## Kata
 
 Significa *forma*. Movimentos praticados no treino de artes marciais, realizados em conjunto ou individualmente.
+
+**Erro** é diferente de **falha**.
+
+Erro: qualquer exceção que não seja `AssertionError`. Tem prioridade sobre falhas.
+
+Falha: `AssertionError`. Expectativa não está sendo cumprida.
+
