@@ -10,13 +10,25 @@ Programe um robô que jogue FizzBuzz
 """
 
 
+def multiple_of_3(value):
+    return value % 3 == 0
+
+
+def multiple_of_5(value):
+    return value % 5 == 0
+
+
+def multiple_of_3_and_5(value):
+    return multiple_of_3(value) and multiple_of_5(value)
+
+
 def robot(value):
     say = str(value)
-    if value % 15 == 0:
+    if multiple_of_3_and_5(value):
         say = 'fizzbuzz'
-    elif value % 3 == 0:
+    elif multiple_of_3(value):
         say = 'fizz'
-    elif value % 5 == 0:
+    elif multiple_of_5(value):
         say = 'buzz'
     return say
 
