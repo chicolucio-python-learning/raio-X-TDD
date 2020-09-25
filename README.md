@@ -31,3 +31,7 @@ Pro cliente só interessa o *output*. Mas passamos boa parte do tempo no input e
 ## Essência de um teste
 
 Ver arquivo [essencia_test.py](essencia_test.py)
+
+## Kata
+
+Significa *forma*. Movimentos praticados no treino de artes marciais, realizados em conjunto ou individualmente.
