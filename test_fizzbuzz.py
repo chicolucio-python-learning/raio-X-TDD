@@ -8,18 +8,15 @@ Regras do FizzBuzz
 
 Programe um robô que jogue FizzBuzz
 """
+from functools import partial
 
 
 def multiple_of(base, value):
     return value % base == 0
 
 
-def multiple_of_3(value):
-    return multiple_of(3, value)
-
-
-def multiple_of_5(value):
-    return multiple_of(5, value)
+multiple_of_3 = partial(multiple_of, 3)
+multiple_of_5 = partial(multiple_of, 5)
 
 
 def multiple_of_3_and_5(value):
