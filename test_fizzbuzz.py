@@ -11,13 +11,14 @@ Programe um robô que jogue FizzBuzz
 
 
 def robot(value):
+    say = str(value)
     if value % 15 == 0:
-        return 'fizzbuzz'
+        say = 'fizzbuzz'
     elif value % 3 == 0:
-        return 'fizz'
+        say = 'fizz'
     elif value % 5 == 0:
-        return 'buzz'
-    return str(value)
+        say = 'buzz'
+    return say
 
 
 if __name__ == "__main__":
