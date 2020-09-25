@@ -11,7 +11,9 @@ Programe um robô que jogue FizzBuzz
 
 
 def robot(value):
-    if value % 3 == 0:
+    if (value % 3 == 0) and (value % 5 == 0):
+        return 'fizzbuzz'
+    elif value % 3 == 0:
         return 'fizz'
     elif value % 5 == 0:
         return 'buzz'
@@ -27,3 +29,6 @@ if __name__ == "__main__":
 
     assert robot(5) == 'buzz'
     assert robot(10) == 'buzz'
+
+    assert robot(15) == 'fizzbuzz'
+    assert robot(30) == 'fizzbuzz'
