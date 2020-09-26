@@ -29,13 +29,9 @@ b) Número 4
 
 
 def happy(number):
-    total = 0
-    n = str(number)
-    eternal_loop = (2, 3, 4, 5, 6, 8, 9)
-    while (total != 1) and (total not in eternal_loop):
-        total = sum([int(i)**2 for i in n])
-        n = str(total)
-    return total == 1
+    if number < 10:
+        return number in (1, 7)
+    return happy(sum((int(i)**2 for i in str(number))))
 
 
 assert all(happy(n) for n in (1, 10, 100, 130, 7))
