@@ -29,12 +29,16 @@ b) Número 4
 
 
 def happy(number):
-    if number == 4:
-        return False
-    return True
+    total = 0
+    n = str(number)
+    while (total != 1) and (total != number):
+        total = sum([int(i)**2 for i in n])
+        n = str(total)
+    return total == 1
 
 
 assert happy(1)
 assert happy(10)
 assert happy(100)
+assert happy(7)
 assert not happy(4)
