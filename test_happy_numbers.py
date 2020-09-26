@@ -37,8 +37,6 @@ def happy(number):
     return total == 1
 
 
-assert happy(1)
-assert happy(10)
-assert happy(100)
-assert happy(7)
+assert all(happy(n) for n in (1, 10, 100, 130, 7))
+
 assert not happy(4)
