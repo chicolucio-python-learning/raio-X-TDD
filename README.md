@@ -42,3 +42,6 @@ Erro: qualquer exceção que não seja `AssertionError`. Tem prioridade sobre fa
 
 Falha: `AssertionError`. Expectativa não está sendo cumprida.
 
+Ver arquivo [test_fizzbuzz.py](test_fizzbuzz.py) e respectivos commits.
+
+Ver arquivo [test_happy_numbers.py](test_happy_numbers.py) e respectivos commits.
